@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 393px;
+    height: 852px;
+    background-image: url('book\ club\ 1.jpg');
+    background-size: contain;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+   
+    text-align: center;
+}
+
+h1 {
+    width: 250px;
+    height: 92px;
+    font-size: 36px;
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #D9D9D9;
+    color: rgb(13, 5, 5);
+    border-radius: 20px;
+}
+
+.ratings {
+    width: 250px;
+    height: 120px;
+    margin-left: 60px;
+    margin-top: 60px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #4e4e4e;
+    color: white;
+    border-radius: 0px;
+}
+
+.stars {
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+.reviews {
+    font-size: 30px;
+    margin: 10px 0;
+    margin-right: 240px;
+}
+
+textarea {
+    width: 364px;
+    height: 242px;
+    color: #D9D9D9;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+.submit-button:hover {
+    background-color: #36D9CB;
+}
+</style>
+<body>
+    <div class="container">
+        
+        <h1>Feedback for Book Club</h1>
+        <div class="ratings">
+            <label for="ratings">Ratings:</label>
+            <div class="stars">★★★★★</div>
+        </div>
+        <div class="reviews">
+            <label for="reviews">Reviews:</label>
+            <textarea id="reviews" rows="4" placeholder="Write your review here..."></textarea>
+        </div>
+        <svg width="270" height="120" viewBox="100 20 225 200"  xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="205.5" cy="160" rx="145.5" ry="50" fill="#36D9CB" fill-opacity="1.2"/>
+            <text fill="ffffff" font-size="45" font-family="verdana" x="135" y="169">submit</text>
+            </svg>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style> 
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 393px;
+    height: 852px;
+    margin: 20px auto;
+    background-image: url('book\ club\ 1.jpg');
+    background-size: contain;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+input[type="text"] {
+    margin-bottom: 50px;
+    background-color: rgba(240, 16, 20, 0.83);
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.book {
+    background: #f9f9f9;
+    padding: 0px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.book h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.book p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+</style>
+<body>
+  <div class="container">
+      
+        <svg width="300" height="70" viewBox="0 0 261 100" xmlns="http://www.w3.org/2000/svg">
+            <rect width="300" height="70" x="50" y="5" fill="#D9D9D9"/>
+            <text fill="ffffff" font-size="38" font-family="verdana" x="100" y="50">book club </text>
+          </svg>
+    <header>
+        <label for="search">search:</label>
+        <input type="text" >
+    </header>
+        <div class="book-grid">
+            <div class="book">
+                <img src="C:\Users\Shrey\Downloads\his book 1.jpg" width="180" height="200">
+                <p>Price: $400</p>
+                <p>WILLUSTRATED HISTORY OF INDIA</p>
+            </div>
+            <div class="book">
+                <img src="C:\Users\Shrey\Downloads\his book 2.jpg" width="180" height="200">
+                <p>Price: $500</p>
+                <p>about: national geographics</p>
+            </div>
+            <div class="book">
+                <img src="C:\Users\Shrey\Downloads\his boook 3.jpg" width="180" height="200">
+                <p>Price: $650</p>
+                <p>about: history booy of animal</p>
+            </div>
+            <div class="book">
+                <img src="C:\Users\Shrey\Downloads\his book 4.jpg" width="180" height="200">
+                <p>Price: $450</p>
+                <p>about: Karma Yoga, Bhakti Yoga book</p>
+            </div>
+        </div>
+</div>
+</body>
+</html>
